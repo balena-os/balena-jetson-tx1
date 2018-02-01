@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+
+<!-- Nvidia Tegra Partition Layout Version 1.0.0 -->
+
+<partition_layout version="01.00.0000">
+    <device type="sdmmc" instance="3">
+        <partition name="TBC" id="1" type="bootloader">
+            <allocation_policy> sequential </allocation_policy>
+            <filesystem_type> basic </filesystem_type>
+            <size> 4194304 </size>
+            <file_system_attribute> 0 </file_system_attribute>
+            <allocation_attribute> 8 </allocation_attribute>
+            <percent_reserved> 0 </percent_reserved>
+            <filename> nvtboot_cpu.bin </filename>
+        </partition>
+
+        <partition name="EBT" id="2" type="bootloader">
+            <allocation_policy> sequential </allocation_policy>
+            <filesystem_type> basic </filesystem_type>
+            <size> 4194304 </size>
+            <file_system_attribute> 0 </file_system_attribute>
+            <allocation_attribute> 8 </allocation_attribute>
+            <percent_reserved> 0 </percent_reserved>
+            <filename> cboot.bin </filename>
+        </partition>
+
+        <partition name="BPF" id="3" type="data">
+            <allocation_policy> sequential </allocation_policy>
+            <filesystem_type> basic </filesystem_type>
+            <size> 4194304 </size>
+            <file_system_attribute> 0 </file_system_attribute>
+            <partition_attribute> 0 </partition_attribute>
+            <allocation_attribute> 8 </allocation_attribute>
+            <percent_reserved> 0 </percent_reserved>
+            <filename> bpmp.bin </filename>
+        </partition>
+
+        <partition name="WB0" id="4" type="WB0">
+            <allocation_policy> sequential </allocation_policy>
+            <filesystem_type> basic </filesystem_type>
+            <size> 4194304 </size>
+            <file_system_attribute> 0 </file_system_attribute>
+            <allocation_attribute> 8 </allocation_attribute>
+            <percent_reserved> 0 </percent_reserved>
+            <filename> warmboot.bin </filename>
+        </partition>
+
+        <partition name="RP1" id="5" type="data">
+            <allocation_policy> sequential </allocation_policy>
+            <filesystem_type> basic </filesystem_type>
+            <size> 4194304 </size>
+            <file_system_attribute> 0 </file_system_attribute>
+            <allocation_attribute> 0x8 </allocation_attribute>
+            <percent_reserved> 0 </percent_reserved>
+            <filename> [DTB_NAME].dtb </filename>
+        </partition>
+
+        <partition name="TOS" id="6" type="data">
+            <allocation_policy> sequential </allocation_policy>
+            <filesystem_type> basic </filesystem_type>
+            <size> 4194304 </size>
+            <file_system_attribute> 0 </file_system_attribute>
+            <partition_attribute> 0 </partition_attribute>
+            <allocation_attribute> 8 </allocation_attribute>
+            <percent_reserved> 0 </percent_reserved>
+            <filename> tos.img </filename>
+        </partition>
+
+        <partition name="EKS" id="7" type="data">
+            <allocation_policy> sequential </allocation_policy>
+            <filesystem_type> basic </filesystem_type>
+            <size> 4194304 </size>
+            <file_system_attribute> 0 </file_system_attribute>
+            <partition_attribute> 0 </partition_attribute>
+            <allocation_attribute> 8 </allocation_attribute>
+            <percent_reserved> 0 </percent_reserved>
+            <filename> eks.img </filename>
+        </partition>
+
+        <partition name="LNX" id="8" type="data">
+            <allocation_policy> sequential </allocation_policy>
+            <filesystem_type> basic </filesystem_type>
+            <size> 4194304 </size>
+            <file_system_attribute> 0 </file_system_attribute>
+            <allocation_attribute> 0x8 </allocation_attribute>
+            <percent_reserved> 0 </percent_reserved>
+            <filename> boot.img </filename>
+        </partition>
+
+        <partition name="DTB" id="9" type="data">
+            <allocation_policy> sequential </allocation_policy>
+            <filesystem_type> basic </filesystem_type>
+            <size> 4194304 </size>
+            <file_system_attribute> 0 </file_system_attribute>
+            <allocation_attribute> 0x8 </allocation_attribute>
+            <percent_reserved> 0 </percent_reserved>
+            <filename> [DTB_NAME].dtb </filename>
+        </partition>
+    </device>
+</partition_layout>

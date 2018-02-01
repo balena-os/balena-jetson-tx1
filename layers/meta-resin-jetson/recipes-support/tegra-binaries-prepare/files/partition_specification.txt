@@ -1,0 +1,9 @@
+TBC:nvtboot_cpu.bin.encrypt
+EBT:cboot.bin.encrypt
+BPF:bpmp.bin
+WB0:warmboot.bin.encrypt
+RP1:[DTB_NAME].dtb
+TOS:tos.img.encrypt
+EKS:eks.img
+LNX:u-boot-dtb.bin
+DTB:[DTB_NAME].dtb
