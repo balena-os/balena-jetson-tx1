@@ -1,0 +1,19 @@
+#!/bin/sh
+
+set -o errexit
+
+flash() {
+    for line in $(cat $1); do
+        part_name=$(cut -d ':' -f 1 <<< $line) 
+        filename=$(cut -d ':' -f 2 <<< $line)
+        
+        dd oflag=dsync if="/opt/tegra-binaries/$filename" of="/dev/disk/by-partlabel/$part_name"
+    done
+}
+
+flash "/opt/tegra-binaries/partition_specification.txt"
+
+# Allow write to boot part
+echo 0 > /sys/block/mmcblk0boot0/force_ro
+dd if=/opt/tegra-binaries/boot0.img of=/dev/mmcblk0boot0 ; sync
+echo 1 > /sys/block/mmcblk0boot0/force_ro
