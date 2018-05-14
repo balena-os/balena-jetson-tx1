@@ -1,8 +1,0 @@
-#!/bin/sh
-
-set -e
-
-# Allow write to the boot section
-echo 0 > /sys/block/mmcblk0boot0/force_ro
-dd if=/opt/tegra-binaries/boot0.img of=/dev/mmcblk0boot0 ; sync
-echo 1 > /sys/block/mmcblk0boot0/force_ro
