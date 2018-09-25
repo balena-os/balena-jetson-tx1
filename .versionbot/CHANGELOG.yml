@@ -1,0 +1,15 @@
+- version: 2.14.3+rev1
+  date: 2018-08-13T22:00:00.000Z
+  commits:
+    - subject: 'Update the meta-resin submodule to version v2.14.3 [Florin]'
+    - subject: >-
+        Update the resin-yocto-scripts submodule to
+        8312741e13604a9d166370349061876afb22c0fa [Florin]
+- version: 2.12.7+rev2
+  date: 2018-04-13T22:00:00.000Z
+  commits:
+    - subject: 'Clean bits inherited from the TX2 [Theodor]'
+- version: 2.12.7+rev1
+  date: 2018-01-31T23:00:00.000Z
+  commits:
+    - subject: 'Provide initial support for the Nvidia Jetson TX1 [Theodor]'
