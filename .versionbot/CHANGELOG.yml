@@ -1,3 +1,6 @@
+- commits: []
+  version: 2.27.0+rev3
+  date: 2019-01-07T13:34:31.680Z
 - commits:
     - subject: Switch from resin-yocto-scripts to balena-yocto-scripts
       hash: a895231411af7f7928546d28633fa1ba671aec67
