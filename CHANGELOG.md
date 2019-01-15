@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.27.0+rev3
+## (2019-01-15)
+
+* Remove custom device u-boot hook to let the meta-balena one work [Zubair Lutfullah Kakakhel]
+
 # v2.27.0+rev2
 ## (2018-12-17)
 

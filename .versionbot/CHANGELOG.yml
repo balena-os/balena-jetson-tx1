@@ -1,4 +1,25 @@
 - commits:
+    - subject: Remove custom device u-boot hook to let the meta-balena one work
+      hash: 9f27c622587fe573710ed560105a9382aa4e119c
+      body: |
+        This was added in the hooks because the jetsons use a different hook
+        as their partition numbers seem to be in hex.
+
+        https://github.com/balena-os/meta-balena/pull/1349 adds this in
+        meta-balena. Remove the custom hook here as there are updates to this
+        hook related to rollbacks in meta-balena that have not reached the
+        jetson family.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Changelog-entry: Remove custom device u-boot hook to let the meta-balena one work
+        changelog-entry: Remove custom device u-boot hook to let the meta-balena one work
+        Signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+        signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+      author: Zubair Lutfullah Kakakhel
+  version: 2.27.0+rev3
+  date: 2019-01-15T10:19:58.581Z
+- commits:
     - subject: Switch from resin-yocto-scripts to balena-yocto-scripts
       hash: a895231411af7f7928546d28633fa1ba671aec67
       body: ''
