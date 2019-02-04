@@ -1,4 +1,17 @@
 - commits:
+    - subject: Enable CONFIG_CMD_SETEXPR for jetson-tx1 u-boot
+      hash: 73624974f8a05667ab5d6bad90621ff1ed99f1cd
+      body: |
+        Enabled CMD_SETEXPR config in u-boot for jetson-tx1
+      footer:
+        Changelog-entry: Enable CONFIG_CMD_SETEXPR for jetson-tx1 u-boot
+        changelog-entry: Enable CONFIG_CMD_SETEXPR for jetson-tx1 u-boot
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.29.2+rev2
+  date: 2019-01-29T08:28:57.012Z
+- commits:
     - subject: Update the meta-resin submodule from v2.27.0 to v2.29.2
       hash: 8b85529f9615679a9ebfe43e82f125978b969f1e
       body: |
