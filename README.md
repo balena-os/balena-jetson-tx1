@@ -1,4 +1,4 @@
-#  resin-jetson repository
+#  balena-jetson-tx1 repository
 
 ## Clone/Initialize the repository
 
@@ -13,14 +13,14 @@ or
 
 ### Build flags
 
-* Consult layers/meta-resin/README.md for info on various build flags.
+* Consult layers/meta-balena/README.md for info on various build flags.
 (setting up serial console support for example). Build flags can be set by using the build script (barys).
 See below for using the build script.
 
 ### Build this repository
 
 * Run the build script:
-  ./resin-yocto-scripts/build/barys
+  ./balena-yocto-scripts/build/barys
 
 * You can also run barys with the -h switch to inspect the available options
 
@@ -28,7 +28,7 @@ See below for using the build script.
 
 ### Issues
 
-For issues we use an aggregated github repository available [here](https://github.com/resin-os/resinos/issues). When you create issue make sure you select the right labels.
+For issues we use an aggregated github repository available [here](https://github.com/balena-os/balenaos/issues). When you create issue make sure you select the right labels.
 
 ### Pull requests
 
