@@ -1,4 +1,16 @@
 - commits:
+    - subject: Modify icon file for jetson-tx1
+      hash: 30c7a94eb96f0a7b388d9cf65db7c5d5fa33223d
+      body: ''
+      footer:
+        Changelog-entry: Modify icon file for jetson-tx1
+        changelog-entry: Modify icon file for jetson-tx1
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.33.0+rev3
+  date: 2019-05-08T05:55:27.917Z
+- commits:
     - subject: Update the balena-yocto-scripts submodule to v1.0.6
       hash: b97009a7253559443419df59f78032959c058cf4
       body: ''

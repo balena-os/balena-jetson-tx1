@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.33.0+rev3
+## (2019-05-08)
+
+* Modify icon file for jetson-tx1 [Florin Sarbu]
+
 # v2.33.0+rev2
 ## (2019-05-07)
 
