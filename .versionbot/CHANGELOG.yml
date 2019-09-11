@@ -1,4 +1,16 @@
 - commits:
+    - subject: Bump balena-yocto-scripts to v1.3.6
+      hash: 0e2923f4f0706b94a4bc15ba4259735e908352cf
+      body: ''
+      footer:
+        Changelog-entry: Bump balena-yocto-scripts to v1.3.6
+        changelog-entry: Bump balena-yocto-scripts to v1.3.6
+        Signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+        signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+      author: Zubair Lutfullah Kakakhel
+  version: 2.33.0+rev4
+  date: 2019-09-10T16:21:24.077Z
+- commits:
     - subject: Modify icon file for jetson-tx1
       hash: 30c7a94eb96f0a7b388d9cf65db7c5d5fa33223d
       body: ''
