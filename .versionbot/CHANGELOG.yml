@@ -1,4 +1,25 @@
 - commits:
+    - subject: Update balena-yocto-scripts to v1.3.8
+      hash: 4b42c4b3c23f548c05089f588907dbd06f94e98c
+      body: ''
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to v1.3.8
+        changelog-entry: Update balena-yocto-scripts to v1.3.8
+        Signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+        signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+      author: Zubair Lutfullah Kakakhel
+    - subject: Update balena-yocto-scripts to v1.3.7
+      hash: 973b15e9bb95caca9a1653cec6be38113af3358c
+      body: ''
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to v1.3.7
+        changelog-entry: Update balena-yocto-scripts to v1.3.7
+        Signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+        signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+      author: Zubair Lutfullah Kakakhel
+  version: 2.33.0+rev5
+  date: 2019-10-01T07:53:53.520Z
+- commits:
     - subject: Bump balena-yocto-scripts to v1.3.6
       hash: 0e2923f4f0706b94a4bc15ba4259735e908352cf
       body: ''
