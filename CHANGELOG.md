@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.33.0+rev6
+## (2019-10-01)
+
+* Patches for TCP-based remote denial of service vulnerabilities [Vicentiu Galanopulo]
+
 # v2.33.0+rev5
 ## (2019-10-01)
 
