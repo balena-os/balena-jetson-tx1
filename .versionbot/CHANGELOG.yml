@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-yocto-scripts to v1.5.2
+      hash: 98dd8e7d9a21702859373eae41ba2c957951a724
+      body: ''
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to v1.5.2
+        changelog-entry: Update balena-yocto-scripts to v1.5.2
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.33.0+rev7
+  date: 2020-01-25T11:40:34.686Z
+- commits:
     - subject: Patches for TCP-based remote denial of service vulnerabilities
       hash: 72c61fc6d7de7615f516114fd3d90ae4fc45b3a5
       body: >
