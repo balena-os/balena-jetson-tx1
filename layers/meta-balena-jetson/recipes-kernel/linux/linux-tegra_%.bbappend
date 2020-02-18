@@ -18,8 +18,8 @@ RESIN_CONFIGS_remove = "brcmfmac"
 
 TEGRA_INITRAMFS_INITRD = "0"
 
-KERNEL_ROOTSPEC = "\${resin_kernel_root} ro rootwait" 
-KERNEL_ROOTSPEC_FLASHER = "root=/dev/mmcblk1p11 ro rootwait" 
+KERNEL_ROOTSPEC = "\${resin_kernel_root} ro rootwait sdhci_tegra.en_boot_part_access=1"
+KERNEL_ROOTSPEC_FLASHER = "root=/dev/mmcblk1p11 ro rootwait sdhci_tegra.en_boot_part_access=1"
 
 generate_extlinux_conf() {
     install -d ${D}/${KERNEL_IMAGEDEST}/extlinux
