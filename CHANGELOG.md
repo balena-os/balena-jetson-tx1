@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.46.1+rev2
+## (2020-02-19)
+
+* Remove unnecessary override of IMAGE_ROOTFS_MAXSIZE [Zubair Lutfullah Kakakhel]
+
 # v2.46.1+rev1
 ## (2020-01-25)
 
