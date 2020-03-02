@@ -4,7 +4,7 @@ deviceTypesCommon = require '@resin.io/device-types/common'
 BOARD_POWERON = 'Press and hold for 1 second the POWER push button.'
 
 postProvisioningInstructions = [
-	instructions.BOARD_SHUTDOWN
+	instructions.BOARD_SHUTDOWN + ' The red LED next to the fan power connector may stay on.'
 	instructions.REMOVE_INSTALL_MEDIA
 	instructions.BOARD_REPOWER
 ]
